@@ -29,11 +29,11 @@ back-end development to take information from database and organises the informa
 ## Your very first Webpage
 1. Each website needs an `index.html` - a landing page.
 2. "cheat" in VSCode - typing `!` then `tab` will have generate a simple and basic html structure.
-3. `<body>` is what you will see in the webpage
-   4. `<title>` is displayed in the tab.
-   5. `<h1>` stand for "header 1"
-   6. `<p>` stands for "paragraph"
-   7. 
+3. General structure
+   - `<body>` is what you will see in the webpage
+   - `<title>` is displayed in the tab.
+   - `<h1>` stand for "header 1"
+   - `<p>` stands for "paragraph" 
 
 # Section 2: HTML Fundamentals
 
