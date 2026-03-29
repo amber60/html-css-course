@@ -62,7 +62,7 @@ Structure that each and every HTML document needs to have.
   - for now, specify title `<title>The Basic Language of the web: HTML</title>`
 6. Another element in content. `<body></body>`
   - All elements visible in the browser window.
-  - add a header `<h1>The Basic Language of the Web: HTML</h1>
+  - add a header `<h1>The Basic Language of the Web: HTML</h1>`
 
 Putting it together:
 ```html
