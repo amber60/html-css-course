@@ -36,6 +36,50 @@ back-end development to take information from database and organises the informa
    - `<p>` stands for "paragraph" 
 
 # Section 2: HTML Fundamentals
+## Introduction to HTML
+- `H`yper`T`ext `M`arkup `L`anguage
+- markup language (**not** a programming language)
+- structure and describe the entire content of a webpage
+- consist **elements** that describe different types of content
+  - paragraphs `<p>`, links, headings, images, video, etc.
+- Web browsers understand HTML and can render HTML code as websites.
+
+### Anatomy of an HTML element
+e.g. `<p>HTML is a markup language</p>` is an element. Made up of three parts:
+1. Opening tag: name of element, wrapped in `<>`
+2. Content: content of element. might be another element (child element), or no content, e.g. `<img>`
+3. Closing tag: same as opening tag, but with `/`. When element has no content, it is omitted.
+
+## HTML Document Structure
+Structure that each and every HTML document needs to have.
+1. Declare doctype. `<!DOCTYPE html>`
+2. Create a HTML element. `<html></html>`
+   - each HTML document needs to start with this, including one head and body element 
+4. Put another element in content. `<head></head>`
+  - things that are not visible in the browser window
+  - title, some additional infomation
+  - link to CSS files
+  - for now, specify title `<title>The Basic Language of the web: HTML</title>`
+6. Another element in content. `<body></body>`
+  - All elements visible in the browser window.
+  - add a header `<h1>The Basic Language of the Web: HTML</h1>
+
+Putting it together:
+```html
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>The Basic Language of the Web: HTML</title>
+  </head>
+
+  <body>
+    <h1>The Basic Language of the Web: HTMLs</h1>
+  </body>
+</html>
+
+```
+
+
 
 # Section 3: CSS Fundamentals
 
