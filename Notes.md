@@ -54,7 +54,7 @@ e.g. `<p>HTML is a markup language</p>` is an element. Made up of three parts:
 Structure that each and every HTML document needs to have.
 1. Declare doctype. `<!DOCTYPE html>`
 2. Create a HTML element. `<html></html>`
-   - each HTML document needs to start with this, including one head and body element 
+   - each HTML document needs to start with this, **including one head and body** element 
 4. Put another element in content. `<head></head>`
   - things that are not visible in the browser window
   - title, some additional infomation
@@ -62,6 +62,7 @@ Structure that each and every HTML document needs to have.
   - for now, specify title `<title>The Basic Language of the web: HTML</title>`
 6. Another element in content. `<body></body>`
   - All elements visible in the browser window.
+  - what you want rendered on the page should go into the body.
   - add a header `<h1>The Basic Language of the Web: HTML</h1>`
 
 Putting it together:
@@ -76,10 +77,22 @@ Putting it together:
     <h1>The Basic Language of the Web: HTMLs</h1>
   </body>
 </html>
-
 ```
+## Text Elements
+New elements for working with text.
 
+### Headings
+Goal is to break up big blocks of text into logical sections and add a title to each of the sections.
 
+There are six different headings:
+1. h1 to h6.
+2. h1 - primary heading, h2 - secondary, etc.
+3. Creates a visual hiearchy between the six headings, first one is biggest one, sixth is smallest.
+
+### Paragraphs
+The paragraph element, a generic element to markup bigger blocks of text.
+
+To write a comment, `<!--any comment here-->`
 
 # Section 3: CSS Fundamentals
 
