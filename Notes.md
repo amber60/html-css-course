@@ -123,6 +123,16 @@ To write a comment, `<!--any comment here-->`
 - Bold: `<strong>`, semantic HTML - better than using `<b>` which is a older html element and does not have semantic meaning.
 - Italics: `<em>`, meaning "emphasise" as semantic HTML - better than using `<i>`
 
+### List with Bullet Points
+
+- Ordered List
+  - `<ol>` stands for "ordered list"
+  - need to create elements in the list, using the element `<li>` stands for "list item"
+  - indented as child elements of the ordered list
+- Bulleted List
+  - `<ul>` stands for "unordered list"
+  - also uses `<li>` for list element
+
 # Section 3: CSS Fundamentals
 
 # Section 4: Layouts: Floats, Flexbox, and CSS Grid Fundamentals
