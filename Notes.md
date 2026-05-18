@@ -133,6 +133,20 @@ To write a comment, `<!--any comment here-->`
   - `<ul>` stands for "unordered list"
   - also uses `<li>` for list element
 
+### Images and Attributes
+
+- <img> element is a special element - it does not have any content, so it doesn't have a closing tab.
+- hence, closing tag is within the opening element.
+- attributes to describe the elements.
+  - includes the `src` attribute
+  - `alt` attribute - stands for "alternative text" to describe what the image is about
+  - `width`; `height` in px
+
+- attributes of html element:
+  - specifying language of document - goes in the html tag `<html lang="en">`
+  - specifying character set in the document - goes in the head
+    - describe new element metadata `<meta charset="UTF-8"/>`
+
 # Section 3: CSS Fundamentals
 
 # Section 4: Layouts: Floats, Flexbox, and CSS Grid Fundamentals
